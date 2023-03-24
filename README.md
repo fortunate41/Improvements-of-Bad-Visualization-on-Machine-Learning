@@ -95,8 +95,11 @@ Therefore, the chart after removing the ice cream pattern is more consistent wit
 
 In the figure discussed in this discussion, the legend accounts for a large proportion, so the legend may cause the reader to fall into a cognitive tunnel. However, we know that the information that the author hopes to transmit is that the average accuracy of TPGNN algorithm is high and stable. So we can delete the legend, mark the algorithm directly behind each polyline, mark the font size of TPGNN algorithm, and rotate the label of y-axis (see Figure 7). This can not only prevent cognitive tunneling, but also distinguish the target algorithm from other algorithms, which is easier to attract attention.
 
-<div align = center><img src = "plt4.png" width = 65% ></div>
-<center><b>Figure 7.</b> The visualization after adjust the legend and label.</center>
+<div align = center>
+  <img src = "plt4.png" width = 65% >
+  </br>
+  <b>Figure 7.</b> The visualization after adjust the legend and label.
+</div>
 
 
 ## Analysis of the Final Chart
