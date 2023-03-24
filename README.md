@@ -16,6 +16,7 @@ The following visualization (see Figure 1) shows the influence of the number of 
 
 <div align = center>
 <img src = "plt0.png" width = 65% ></img>
+</br>
 <b>Figure 1.</b> Bad visualization on machine learning.
 </div>
 
