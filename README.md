@@ -36,9 +36,7 @@ The following is the specific improvement of the chart, which is divided into th
 
 The Data-Ink ratio is a concept that introduced by Edward Tufte, the expert whose work has contributed significantly to designing effective data visualization. Tufte refers to data-ink as the non-erasable ink used for the presentation of data. If data-ink would be removed from the image, the graphic would lose the content. Non-Data-Ink is accordingly the ink that doesn't transport the information but it is used for scales, labels and edges. The data-ink ratio is the proportion of ink that is used to present actual data compared to the total amount of ink used in the entire visualization.
 
-**<center>
-  Data-Ink ratio = data-ink / total-ink
-</center>**
+**Data-Ink ratio = data-ink / total-ink**
 
 Create an excellent visualization requires maximizing the data-ink ratio. That means every bit of ink should be to present new information. This has three advantages: clear message, saving time and saving space. Maximizing the data-ink ratio will make message clearer and easier to consume by audience, and fewer accessory elements mean less confusion and more effective reading. Moreover, if you need to show a lot of information in a dashboard, space is a resource. Data-ink optimized charts occupy less space and accept resizing better. So, a good visualization requires erase Non-Data-Ink.
 
@@ -50,7 +48,9 @@ For example in Figure 2a and Figure 2b, remove grid lines and any call-outs, lab
 The visualization discussed in this article has a lot of Non-Data-Ink elements, such as borders and grid lines. After removing these elements (see Figure 3), the readability of visualization is improved.
 
 <div align = center><img src = "plt1.png" width = 65% ></img></div>
-<center><b>Figure 3.</b> The visualization after remove Non-Data-Ink elements.</center>
+<center>
+  <b>Figure 3.</b> The visualization after remove Non-Data-Ink elements.
+</center>
 
 Of course, the line chart still needs to be improved. In order to distinguish different algorithms, the author chooses different styles of polylines and points. But these are not necessary, because readers can clearly distinguish different algorithms through different colors. If the style of all polylines is unified into solid lines, and the style of all points is unified into small cycle dots (see Figure 4), it will not affect readers' reading, and the Data-Ink ratio will be improved.
 
