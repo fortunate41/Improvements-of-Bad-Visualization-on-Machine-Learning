@@ -14,8 +14,10 @@ Article [*TPGNN: Learning High-order Information in Dynamic Graphs via Temporal 
 
 The following visualization (see Figure 1) shows the influence of the number of parameters passed to the training program on the average accuracy of different methods. And it is the *Figure 5* of the article.
 
-<div align = center><img src = "plt0.png" width = 65% ></img></div>
-<center><b>Figure 1.</b> Bad visualization on machine learning.</center>
+<div align = center>
+<img src = "plt0.png" width = 65% ></img>
+<b>Figure 1.</b> Bad visualization on machine learning.
+</div>
 
 Obviously, the author hopes to compare TPGNN with other algorithms to explore whether TPGNN is excellent. By comparing various data, we can clearly see that the average accuracy of TPGNN is higher than that of other methods, and it is relatively stable. Although information can be obtained through this visualization, it is a poor visualization. There are too many unnecessary factors in the diagram, which makes the diagram look messy and untidy. They should be deleted. The coordinate axis of the figure is discontinuous. How can the reader analyze the difference between polylines through a truncated coordinate axis? At the same time, the position of the legend is very bad and needs to be adjusted, and the style of the polyline is also chaotic and useless, so it is necessary to unify it.
 
