@@ -15,9 +15,9 @@ Article [*TPGNN: Learning High-order Information in Dynamic Graphs via Temporal 
 The following visualization (see Figure 1) shows the influence of the number of parameters passed to the training program on the average accuracy of different methods. And it is the *Figure 5* of the article.
 
 <div align = center>
-<img src = "plt0.png" width = 65% ></img>
-</br>
-<b>Figure 1.</b> Bad visualization on machine learning.
+  <img src = "plt0.png" width = 65% ></img>
+  </br>
+  <b>Figure 1.</b> Bad visualization on machine learning.
 </div>
 
 Obviously, the author hopes to compare TPGNN with other algorithms to explore whether TPGNN is excellent. By comparing various data, we can clearly see that the average accuracy of TPGNN is higher than that of other methods, and it is relatively stable. Although information can be obtained through this visualization, it is a poor visualization. There are too many unnecessary factors in the diagram, which makes the diagram look messy and untidy. They should be deleted. The coordinate axis of the figure is discontinuous. How can the reader analyze the difference between polylines through a truncated coordinate axis? At the same time, the position of the legend is very bad and needs to be adjusted, and the style of the polyline is also chaotic and useless, so it is necessary to unify it.
@@ -45,20 +45,27 @@ Create an excellent visualization requires maximizing the data-ink ratio. That m
 
 For example in Figure 2a and Figure 2b, remove grid lines and any call-outs, labels or borders that aren't necessary for getting the point of the chart, and reduce the thickness of graphic elements.
 
-<div align = center><img src = "ax1.png" width = 65% ></img><p></div>
-<center><b>Figure 2.</b> An example of improving Data-Ink ratio benefits. (a) A poor visualization. (b) Clear visualization after erase Non-Data-Ink.</center>
+<div align = center>
+  <img src = "ax1.png" width = 65% ></img>
+  </br>
+  <b>Figure 2.</b> An example of improving Data-Ink ratio benefits. (a) A poor visualization. (b) Clear visualization after erase Non-Data-Ink.
+ </div>
 
 The visualization discussed in this article has a lot of Non-Data-Ink elements, such as borders and grid lines. After removing these elements (see Figure 3), the readability of visualization is improved.
 
-<div align = center><img src = "plt1.png" width = 65% ></img></div>
-<center>
+<div align = center>
+  <img src = "plt1.png" width = 65% ></img>
+  </br>
   <b>Figure 3.</b> The visualization after remove Non-Data-Ink elements.
-</center>
+</div>
 
 Of course, the line chart still needs to be improved. In order to distinguish different algorithms, the author chooses different styles of polylines and points. But these are not necessary, because readers can clearly distinguish different algorithms through different colors. If the style of all polylines is unified into solid lines, and the style of all points is unified into small cycle dots (see Figure 4), it will not affect readers' reading, and the Data-Ink ratio will be improved.
 
-<div align = center><img src = "plt2.png" width = 65% ></img></div>
-<center><b>Figure 4.</b> The visualization after adjust the style of polylines and points.</center>
+<div align = center>
+  <img src = "plt2.png" width = 65% ></img>
+  </br>
+  <b>Figure 4.</b> The visualization after adjust the style of polylines and points.
+</div>
 
 
 ### Axes Labelled
@@ -67,24 +74,22 @@ There is no doubt about what an axis represents in the chart. The quality of axe
 
 The axes of the  line chart discussed in this article has a big problem: the y-axis is discontinuous. It can be speculated that the author deleted a section without data to make the arrangement of polylines more compact, but this will make readers misunderstand the differences between different polylines. Obviously, the difference between the above three algorithms and the following two algorithms is large, but the visualization used by the author narrows the difference between them, so the y-axis should be adjusted to a continuous one (see Figure 5). Meanwhile, the scale of y-axis is adjusted to improve Data-Ink ratio.
 
-<div align = center><img src = "plt3.png" width = 65% ></img></div>
-<center><b>Figure 5.</b> The visualization after continuous y-axis.</center>
+<div align = center>
+  <img src = "plt3.png" width = 65% ></img>
+  </br>
+  <b>Figure 5.</b> The visualization after continuous y-axis.
+</div>
 
 
 ### Cognitive Tunneling
 
 Cognitive tunneling is the psychological state in which your brain hangs on to the thing that is closest to you or in front of you, and does not see the rest of the environment or relevant data. What does this mean? For example in Figure 6a, when readers see this chart, they may be attracted by the ice cream pattern in the chart at the first time, thus ignoring the data. This is caused by cognitive tunneling.
 
-<div align = center><img src = "ax2.png" width = 65% ></img></div>
-<center>(a)
-&ensp;&emsp;&emsp;&emsp;&ensp;&emsp;&emsp;
-&ensp;&emsp;&emsp;&emsp;&ensp;&emsp;&emsp;
-&ensp;&emsp;&emsp;&emsp;&ensp;&emsp;&emsp;
-&emsp;&emsp;&ensp;&emsp;&emsp;&emsp;&emsp;
-&emsp;&emsp;&ensp;&emsp;&emsp;&emsp;&emsp;
-&emsp;&emsp;&emsp;(b)
-</center>
-<center><b>Figure 6.</b> An example of cognitive theory. (a)Visualization that does not conform to cognitive theory. (b) Modified visualization</center>
+<div align = center>
+  <img src = "ax2.png" width = 65% ></img>
+  </br>
+  <b>Figure 6.</b> An example of cognitive theory. (a)Visualization that does not conform to cognitive theory. (b) Modified visualization
+</div>
 
 Therefore, the chart after removing the ice cream pattern is more consistent with the cognitive theory, see Figure 6b. People's attention is limited, so when establishing visualization, attention should be paid to prevent useless information from attracting readers' attention, and important information should be marked to attract readers' attention.
 
