@@ -36,11 +36,9 @@ The following is the specific improvement of the chart, which is divided into th
 
 The Data-Ink ratio is a concept that introduced by Edward Tufte, the expert whose work has contributed significantly to designing effective data visualization. Tufte refers to data-ink as the non-erasable ink used for the presentation of data. If data-ink would be removed from the image, the graphic would lose the content. Non-Data-Ink is accordingly the ink that doesn't transport the information but it is used for scales, labels and edges. The data-ink ratio is the proportion of ink that is used to present actual data compared to the total amount of ink used in the entire visualization.
 
-**
-<center>
+**<center>
   Data-Ink ratio = data-ink / total-ink
-</center>
-**
+</center>**
 
 Create an excellent visualization requires maximizing the data-ink ratio. That means every bit of ink should be to present new information. This has three advantages: clear message, saving time and saving space. Maximizing the data-ink ratio will make message clearer and easier to consume by audience, and fewer accessory elements mean less confusion and more effective reading. Moreover, if you need to show a lot of information in a dashboard, space is a resource. Data-ink optimized charts occupy less space and accept resizing better. So, a good visualization requires erase Non-Data-Ink.
 
